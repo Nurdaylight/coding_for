@@ -30,6 +30,39 @@ mixList.append(6)
 mixList.pop()
 print(mixList)
 
+import random
+number=random.randint(1,10)
+print(number)
+#if statements  
+if number<1:
+  print('hi')
+elif number>=1:
+  print('ooo')
+else :
+  print("WHAT")
+number2=random.randint(10,20)
+#nested if statements
+print(number,number2)
+if number<9:
+  if number2<19:
+    print("unluck")
+  else:
+    print("LUCCC")
+else :
+  print('LUCk')
+if number<9 and number2<19:
+  print('TTJEJINogsnslgfjdpsgjfgn')
+
+
+
+
+
+
+
+
+
+
+
 
 
 
